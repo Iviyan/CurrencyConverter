@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/CurrencyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="0dp"
+        android:text="RUB"
+        android:textAlignment="textStart"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/CurrencyValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/CurrencyName"
+        android:paddingTop="3dp"
+        android:text="12345"
+        android:textAlignment="textStart"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ExchangeRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CurrencyName"
+        android:paddingTop="0dp"
+        android:paddingLeft="20dp"
+        android:text="123"
+        android:textAlignment="textStart"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Currency converter</string>
+    <string name="textviewActualCurrency">RUB</string>
+</resources>
